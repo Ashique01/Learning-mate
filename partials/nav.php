@@ -20,7 +20,7 @@
                             <a href="testimonial.html" class="dropdown-item">Chat with mentor</a>
                         </div>
                     </div>
-                    <a href="contact.php" class="nav-item nav-link">Contact</a>
+                     <a href="contact.php" class="nav-item nav-link">Contact</a>
                 </div>
                 <a href="" class="btn btn-primary py-2 px-4 d-none d-lg-block">Join Us</a>
             </div>
