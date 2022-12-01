@@ -16,10 +16,7 @@
     <?php require('partials/section2.php'); ?>
     <!-- Feature Start -->
 
-
- 
-
-
+    
     <!-- Team Start -->
     <?php require('partials/mentors.php'); ?>
     <!-- Team End -->
@@ -66,10 +63,5 @@
         </div>
     </div>
     <!-- Testimonial Start -->
-
-
-    <!-- Contact Start -->
-  
-    <!-- Contact End -->
 
 <?php require('partials/footer.php'); ?>
