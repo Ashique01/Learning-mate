@@ -89,6 +89,8 @@
 
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
+    <script src="javascript/pass-show-hide.js"></script>
+    <script src="javascript/signup.js"></script>
 </body>
 
 </html>
