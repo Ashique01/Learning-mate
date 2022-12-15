@@ -60,7 +60,7 @@
                 ahead of your classes</h5>
         </div>
         <div class="col-md-2">
-            <a href="registration.php"
+            <a href="chatapplication/index.php"
                 class="my-auto p-3 text-sm-center"><span class="btn btn-success rounded p-2 font-weight-bold">
                     Sign Up
                 </span></a>

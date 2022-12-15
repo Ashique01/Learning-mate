@@ -17,12 +17,12 @@
                             <a href="detail.html" class="dropdown-item"></a>
                             <a href="feature.html" class="dropdown-item">Discussion</a>
                             <a href="team.html" class="dropdown-item">FAQ</a>
-                            <a href="/chatapplication/index.php" class="dropdown-item">Chat with mentor</a>
+                            <a href="chatapplication/index.php" class="dropdown-item">Chat with mentor</a>
                         </div>
                     </div>
                      <a href="contact.php" class="nav-item nav-link">Contact</a>
                 </div>
-                <a href="/chatapplication/index.php" class="btn btn-primary py-2 px-4 d-none d-lg-block">Join Us</a>
+                <a href="chatapplication/index.php" class="btn btn-primary py-2 px-4 d-none d-lg-block">Join Us</a>
             </div>
         </nav>
     </div>
