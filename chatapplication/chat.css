@@ -419,7 +419,7 @@ body{
   display:none;
   background: #f1f1f1;
   color: #000;
-  position: relative;
+  position: absolute;
   padding: 20px;
   margin-top: 10px;
 }
@@ -436,7 +436,7 @@ body{
 
 .valid:before {
   position: relative;
-  left: -35px;
+  left: 35px;
   content: "✔";
 }
 
@@ -447,6 +447,6 @@ body{
 
 .invalid:before {
   position: relative;
-  left: -35px;
+  left: 35px;
   content: "✖";
 }

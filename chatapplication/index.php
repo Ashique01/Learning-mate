@@ -64,7 +64,7 @@
                 </div>
             </form>
             <div class="link">Already signed up? <a href="login.php">Login now</a></div>
-        </section>
+        </section> 
     </div>
     <div id="message">
         <h3>Password must contain the following:</h3>
