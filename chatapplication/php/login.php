@@ -22,7 +22,7 @@
                 echo "Email or Password is Incorrect!";
             }
         }else{
-            echo "Enter a valid email";
+            echo "$email - This email not Exist!";
         }
     }else{
         echo "All input fields are required!";
