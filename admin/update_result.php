@@ -1,6 +1,5 @@
 <?php
 
-	$user_id = $_GET["user_id"];
 	$unique_id = $_GET["unique_id"];
 	$fname = $_GET["fname"];
 	$lname = $_GET["lname"];
@@ -19,12 +18,9 @@
 
 
 
-	$query 	= "UPDATE users SET unique_id='$unique_id', fname='$fname', lname='$lname', email='$email', password='$password', img='$img', status='$status' WHERE user_id = $user_id";
+	$query 	= "UPDATE users SET unique_id='$unique_id', fname='$fname', lname='$lname', email='$email', password='$password', img='$img', status='$status' WHERE unique_id='$unique_id'";
 
-	echo $query;
-
-
-
+	
 	mysqli_query( $connect, $query )
 
 		or die("Can not execute query");

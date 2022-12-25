@@ -7,7 +7,8 @@
     <?php require('banner1.php'); ?>
     <!-- Header End -->
 
-    <form method=get action=user_result.php style="text-align: center;">
+    
+    <form method=get class="w-100 h-75 bg-white border-light shadow-lg" action=user_result.php style="text-align: center;">
 
 	<table align="center">
 

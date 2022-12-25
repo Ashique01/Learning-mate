@@ -13,13 +13,18 @@ $status = $_GET["status"];
 
 
 
+<?php require('partials/head.php'); ?>
+
+<body>
+
+<?php require('partials/nav.php'); ?>
 <h1>Update Record</h1>
 
 
 
-<form method=get action=update_result.php>
+<form style="margin-top:150px" method=get action=update_result.php>
 
-	<table>
+	<table class="table table-bordered table-dark w-25 mx-auto">
 
 	<tr><td>Unique ID: </td><td><input type=text name=unique_id value='<?php echo $unique_id; ?>'></td></tr>
 
@@ -34,9 +39,10 @@ $status = $_GET["status"];
 	<tr><td>Image: </td><td><input type="text" name=img value='<?php echo $img; ?>'></td></tr>
 
 	<tr><td>Status: </td><td><input type=text name=status value='<?php echo $status; ?>'></td></tr>
+	<tr><td>Update Info</td><td><input class="btn btn-success p-2 mx-auto" type=submit value=Update></td></tr>
 
 	</table>
 
-	<input type=submit value=Update>
+	
 
 </form>
