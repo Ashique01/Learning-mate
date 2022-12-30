@@ -1,7 +1,7 @@
  <!-- Navbar Start -->
  <div class="container-fluid p-0">
         <nav class="navbar navbar-expand-lg bg-white navbar-light py-3 py-lg-0 px-lg-5 fixed-top">
-            <a href="index.html" class="navbar-brand ml-lg-3">
+            <a href="index.php" class="navbar-brand ml-lg-3">
                 <h1 class="m-0 text-uppercase text-primary"><i class="fa fa-book-reader mr-3"></i>LearningMate</h1>
             </a>
             <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
@@ -20,6 +20,7 @@
                             <a href="chatapplication/index.php" class="dropdown-item">Chat with mentor</a>
                         </div>
                     </div>
+                    <a href="mentor_rec.php" class="nav-item nav-link">Mentor Recruitment</a>
                     <a href="blogs.html" class="nav-item nav-link">Blogs</a>
                      <a href="contact.php" class="nav-item nav-link">Contact</a>
                 </div>

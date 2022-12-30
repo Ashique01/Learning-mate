@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registration Form</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- CSS only -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+</head>
+
+<!-- <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <a class="navbar-brand" href="#">Navbar</a>w
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Link</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Dropdown
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#">Action</a>
+          <a class="dropdown-item" href="#">Another action</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Something else here</a>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+      </li>
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </form>
+  </div>h
+</nav> -->
+
+<body>
+
+  <h1 class="header">DVR Recruitment Form</h1>
+  <br>
+  <!-- <iframe src="https://open.spotify.com/embed?uri=spotify%3Atrack%3A6gkqY0rDnrzGwGpFyTugi9" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe> -->
+  <br>
+  <h2>Eligibility Criteria:-</h2>
+  <ul>
+    <li>Player's like Vansh is not allowed.</li>
+    <li>Player's level must be 35+</li>
+    <li>K/D must be 3.0+</li>
+    <li>Player must have a good gaming sense.</li>
+    <li>Player must be active b/w 3:00pm-6:00pm.</li>
+    <li>Player must speak Hindi/English.</li>
+    <li>Only interested candidate must fill the form.</li>
+    <li>Player's age must be 18+.</li>
+  </ul>
+  <br>
+  <hr>
+  <br>
+  <h2>Contact Details:-</h2>
+  <form action="">
+    <p>Name:* <input type="text" name="name" id="name" placeholder="Vansh mg" required></p>
+    <p>Player's id: <input type="number" name="UID" id="id"></p>
+    <p>Player's tag: <input type="text" name="tag" id="tag"></p>
+    <br>
+    <fieldset>
+      <legend>Gender</legend>
+      <p>
+        Male <input type="radio" name="gender" id="male"> |
+        Female <input type="radio" name="gender" id="female">|
+        Vansh <input type="radio" name="gender" id="Vansh">
+      </p>
+    </fieldset>
+    <br>
+    <p>Phone Number:* <input required type="tel" name="no." id="phone number" placeholder="+91 88888888"
+        pattern="{10}"></p>
+
+    <p>Email id: <input type="email" name="email" id="email"></p>
+    <p>Date Of Birth:* <input type="date" name="dob" id="dob" required></p>
+    <br>
+    <hr>
+    <br>
+    <p>Have you played any scrims before:
+      Yes <input type="radio" name="gender" id="male">
+      No <input type="radio" name="gender" id="female">
+    </p>
+  
+    <p>Do you have rename card:
+      Yes <input type="radio" name="gender" id="male">
+      No <input type="radio" name="gender" id="female">
+    </p>
+
+    <p>Which device do you have? <input type="text" name="device" id="device"></p>
+
+    <p>Who is the most valuable player:
+      <select name="mvp" id="mvp">
+        <option value="【DVR】Shogun">【DVR】Shogun</option>
+        <option value="【DVR】Kraken">【DVR】Kraken</option>
+        <option value="【DVR】ASHAD">【DVR】ASHAD</option>
+
+      </select>
+
+    </p>
+    <br>
+
+    <!-- <button onclick="document.getElementById('myImage').src='define([
+          'require', adsad
+          'dependency'
+        ], function(require, factory) {
+          'use strict';
+          
+        });'"> Click to apply background</button> -->
+
+    <button class="submit">Submit</button>
+
+    <!-- <iframe src="https://open.spotify.com/embed/track/6gkqY0rDnrzGwGpFyTugi9" width="100%" height="380" frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe> -->
+
+
+  </form>
+  <!-- <footer>
+        <a href="#">FAQ</a>
+        <a href="#">Contact Us</a>
+        <a href="#">Terms Of Use</a>
+        <a href="#">Privacy Policy</a>
+        <a href="#">&copy;2021 | DVR</a>
+    </footer> -->
+
+  <!-- <script src="script.js"></script> -->
+</body>
+
+</html>

@@ -62,6 +62,6 @@
             </div>
         </div>
     </div>
-    <!-- Testimonial Start -->
+  
 
 <?php require('partials/footer.php'); ?>
