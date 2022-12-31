@@ -1,0 +1,5 @@
+site_name: Learning Mate
+site_url: https://example.com
+nav:
+  - Home: index.md
+  - about: about.md
