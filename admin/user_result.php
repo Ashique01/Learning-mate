@@ -21,4 +21,6 @@
 
 		or die("Can not execute query");
 
+	echo "<script> window.location.assign('user_input.php'); </script>";
+
 ?>

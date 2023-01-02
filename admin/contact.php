@@ -1,7 +1,7 @@
 <?php require("partials/head.php");?>
 
 <body>
-    <?php require("partials/nav.php"); ?>
+    <?php require("partials/nav_contact.php"); ?>
 
 
 

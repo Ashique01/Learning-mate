@@ -2,9 +2,9 @@
 
 <body>
 
-<?php require('partials/nav.php'); ?>
+<?php require('partials/nav_pages.php'); ?>
     <!-- Header Start -->
-    <?php require('banner1.php'); ?>
+    <?php require('partials/banner1.php'); ?>
     <!-- Header End -->
 
 
@@ -18,7 +18,7 @@
 		or die("Can not execute query");
 
 		echo "<h1 class='text-center'>User List</h1> \n";
-	echo "<table class='table table-bordered table-dark table-striped w-50 mx-auto' > \n";
+	echo "<table class='table table-striped w-75 mx-auto' > \n";
 	echo "<th>User id</th> <th>Unique id</th> <th>Fname</th> <th>Lname</th> <th>Email</th> <th>Password</th> <th>Image</th> <th>Status</th> <th>Delete</th> <th>Update</th> \n";
 
 	while( $rows = mysqli_fetch_array( $results ) ) {
@@ -32,8 +32,8 @@
         echo "<td> $password </td>";
         echo "<td> $img </td>";
         echo "<td> $status </td>";
-		echo "<td> <a class='text-danger font-weight-bold' href = 'delete.php?user_id=$user_id'> Delete </a> </td>";
-		echo "<td> <a class='text-success font-weight-bold' href = 'update_input.php?user_id=$user_id & unique_id=$unique_id & fname=$fname & lname=$lname & email=$email & password=$password & img=$img & status=$status'> Update </a> </td>";
+		echo "<td> <a href = 'delete_user.php?user_id=$user_id'> Delete </a> </td>";
+		echo "<td> <a href = 'user_update_input.php?user_id=$user_id & unique_id=$unique_id & fname=$fname & lname=$lname & email=$email & password=$password & img=$img & status=$status'> Update </a> </td>";
 		echo "</tr> \n";
 	}
 
